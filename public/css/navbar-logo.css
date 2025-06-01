@@ -1,0 +1,51 @@
+.iteck-sticky-top.is-stuck .custom-logo .custom-logo-light {
+    display: initial
+}
+
+.iteck-sticky-top.is-stuck .custom-logo .custom-logo-dark {
+    display: none
+}
+
+.elementor-2214 .iteck-sticky-top.is-stuck .iteck-nav .navigation>li a {
+    color: #000000 !important
+}
+
+.btn-nav-top a {
+    color: #fff;
+    padding: 12px 20px;
+    background: var(--color-main);
+    background: linear-gradient(to right, var(--color-main), var(--color-secondary));
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-size: 12px;
+    letter-spacing: .8px;
+    border-radius: 50px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    border: 1px solid #fff
+}
+
+.apply-header .logo1 {
+    max-height: 50px
+}
+
+.top-logo>a {
+    display: inline-block;
+    padding: 16px 0
+}
+
+.top-logo>a>img {
+    width: auto !important
+}
+
+.menu-wrapper {
+    padding: 5px 0px !important
+}
+
+.menu-wrapper ul li ul {
+    width: 250px !important
+}
+
+<hede><meta name="google-adsense-account" content="ca-pub-1169644727228189"></hede>
