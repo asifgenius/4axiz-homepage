@@ -1,4 +1,4 @@
-<footer data-wpr-lazyrender="1" class="iteck-custom-footer clearfix">
+<footer data-wpr-lazyrender="1" class="iteck-custom-footer clearfix ">
     <div data-elementor-type="wp-post" data-elementor-id="1010" class="elementor elementor-1010"
         data-elementor-post-type="footer">
         <section
@@ -300,7 +300,7 @@
                                                     </li>
                                                     <li class="elementor-icon-list-item">
                                                         <span class="elementor-icon-list-icon">
-                                                            <i aria-hidden="true" class=" flaticon-telephone"></i>
+                                                            <i aria-hidden="true" class="flaticon-telephone"></i>
                                                         </span>
                                                         <span class="elementor-icon-list-text">+880 1718 837
                                                             689</span>
@@ -353,7 +353,7 @@
                                                     </li>
                                                     <li class="elementor-icon-list-item">
                                                         <span class="elementor-icon-list-icon">
-                                                            <i aria-hidden="true" class=" flaticon-telephone"></i>
+                                                            <i aria-hidden="true" class="flaticon-telephone"></i>
                                                         </span>
                                                         <span class="elementor-icon-list-text">+031 9961 27
                                                             82</span>
@@ -445,9 +445,7 @@
                                             data-id="1c7ff1d7" data-element_type="widget"
                                             data-widget_type="iteck-image.default">
                                             <div class="navs-items-content">
-
                                                 <div class="iteck-image">
-
                                                     <div class="elementor-image">
                                                         <img decoding="async" width="1024" height="17"
                                                             src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201024%2017&#39;%3E%3C/svg%3E"
@@ -458,9 +456,7 @@
                                                                 class="attachment-large size-large wp-image-2579"
                                                                 alt="" /></noscript>
                                                     </div>
-
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -468,7 +464,7 @@
                             </div>
                         </section>
                         <section
-                            class="navbars elementor-inner-section elementor-element elementor-element-9f13d55 navbars-content-middle navbars-boxed navs-items-position navs-items-position"
+                            class="navbars footer-container elementor-inner-section  elementor-element elementor-element-9f13d55 navbars-content-middle navbars-boxed navs-items-position navs-items-position"
                             data-id="9f13d55" data-element_type="section">
                             <div class="headers-populated elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-33 navs-size-height elementor-element elementor-element-9a49b6c"
@@ -483,9 +479,9 @@
                                             data-id="1734f9b8" data-element_type="widget"
                                             data-widget_type="iteck-heading.default">
                                             <div class="navs-items-content">
-                                                <p class="iteck-heading iteck-underline">Copyrights <i
-                                                        class="fa fa-copyright"></i> 2010-25. All Rights Reserved By
-                                                    <span>4axiz IT Ltd.</span>
+                                                <p class="iteck-heading iteck-underline footers">Copyrights <i
+                                                        class="fa fa-copyright footers"></i> 2010-25. All Rights Reserved By
+                                                    <span class="footers">4axiz IT Ltd.</span>
                                                 </p>
                                             </div>
                                         </div>

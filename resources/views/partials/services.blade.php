@@ -46,9 +46,7 @@
                                 <div class="elementor-element elementor-element-43d8921 elementor-widget-laptop__width-initial iteck-image-animation-none elementor-widget elementor-widget-iteck-image"
                                     data-id="43d8921" data-element_type="widget" data-widget_type="iteck-image.default">
                                     <div class="elementor-widget-container">
-
                                         <div class="iteck-image">
-
                                             <div class="elementor-image">
                                                 <img decoding="async" width="120" height="120"
                                                     src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20120%20120&#39;%3E%3C/svg%3E"
@@ -59,9 +57,7 @@
                                                         class="attachment-large size-large wp-image-6159"
                                                         alt="" /></noscript>
                                             </div>
-
                                         </div>
-
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-d68c6a4 elementor-widget elementor-widget-iteck-heading"
@@ -125,9 +121,7 @@
                                                         class="attachment-full size-full wp-image-6153"
                                                         alt="app development" /></noscript>
                                             </div>
-
                                         </div>
-
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-a0e7b30 elementor-widget elementor-widget-iteck-heading"
@@ -189,9 +183,7 @@
                                                         class="attachment-large size-large wp-image-6158"
                                                         alt="" /></noscript>
                                             </div>
-
                                         </div>
-
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-738c5ba elementor-widget elementor-widget-iteck-heading"
@@ -325,9 +317,7 @@
                                                         class="attachment-large size-large wp-image-6154"
                                                         alt="security Solution" /></noscript>
                                             </div>
-
                                         </div>
-
                                     </div>
                                 </div>
                                 <div class="elementor-element elementor-element-5290fe1 elementor-widget elementor-widget-iteck-heading"

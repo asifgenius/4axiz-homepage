@@ -42,21 +42,19 @@
 <div id="myCarousel" class="carousel slide blank-builder" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-
-
-            <img src="//fouraxiz.com/wp-content/uploads/2023/08/app_banner.jpg" class="d-block w-100" alt="Image 1">
+            <img src="/assets/home/app_banner.png" class="d-block w-100" alt="Image 1">
         </div>
         <div class="carousel-item">
-            <img src="//fouraxiz.com/wp-content/uploads/2023/08/ai-banner.jpg" class="d-block w-100" alt="Image 2">
+            <img src="/assets/home/ai-banner.png" class="d-block w-100" alt="Image 2">
         </div>
         <div class="carousel-item">
-            <img src="//fouraxiz.com/wp-content/uploads/2023/08/banner-one-1.jpg" class="d-block w-100" alt="Image 3">
+            <img src="/assets/home/web-banner.png" class="d-block w-100" alt="Image 3">
         </div>
         <div class="carousel-item">
-            <img src="//fouraxiz.com/wp-content/uploads/2023/08/web_banner.jpg" class="d-block w-100" alt="Image 3">
+            <img src="/assets/home/banner-two-1.png" class="d-block w-100" alt="Image 3">
         </div>
         <div class="carousel-item">
-            <img src="//fouraxiz.com/wp-content/uploads/2023/08/banner-two-1.jpg" class="d-block w-100" alt="Image 3">
+            <img src="/assets/home/banner-1.png" class="d-block w-100" alt="Image 3">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">

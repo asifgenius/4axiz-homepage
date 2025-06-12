@@ -7,7 +7,8 @@
                 data-id="7ddb3124" data-element_type="section"
                 data-settings="{&quot;sticky&quot;:&quot;top&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
                 <div class="headers-populated elementor-column-gap-no">
-                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-39c49342"
+                    <div style="width: 100%"
+                        class="elementor-col-100 elementor-top-column elementor-element elementor-element-39c49342"
                         data-id="39c49342" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
                             <section
@@ -38,7 +39,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-column navs-size elementor-inner-column elementor-element elementor-element-14f52185"
+                                    <div class="navbar-items elementor-column navs-size elementor-inner-column elementor-element elementor-element-14f52185"
                                         data-id="14f52185" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-1df3ec8b text-center elementor-widget elementor-widget-iteck-menu"
@@ -68,72 +69,9 @@
                                                                             href="https://fouraxiz.com/portfolio/">Portfolio</a>
                                                                     </li>
                                                                     <li id="menu-item-2591"
-                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-has-children menu-item-2591">
+                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-2591">
                                                                         <a href="https://fouraxiz.com/services/"
                                                                             class="sf-with-ul">Services</a>
-                                                                        <ul class="sub-menu sf-js-enabmagico sf-arrows"
-                                                                            style="display: none;">
-                                                                            <li id="menu-item-4653"
-                                                                                class="menu-item menu-item-type-post_type navbars-fluid menu-item-4653">
-                                                                                <a
-                                                                                    href="https://fouraxiz.com/web-application-development/">Web
-                                                                                    Development</a>
-                                                                            </li>
-                                                                            <li id="menu-item-4645"
-                                                                                class="menu-item menu-item-type-post_type navbars-fluid menu-item-4645">
-                                                                                <a
-                                                                                    href="https://fouraxiz.com/mobile-apps/">App
-                                                                                    Development</a>
-                                                                            </li>
-                                                                            <li id="menu-item-4646"
-                                                                                class="menu-item menu-item-type-post_type navbars-fluid menu-item-4646">
-                                                                                <a
-                                                                                    href="https://fouraxiz.com/business-intelligence/">Business
-                                                                                    Intelligence</a>
-                                                                            </li>
-                                                                            <li id="menu-item-4647"
-                                                                                class="menu-item menu-item-type-post_type navbars-fluid menu-item-4647">
-                                                                                <a
-                                                                                    href="https://fouraxiz.com/search-engine-optimization/">Digital
-                                                                                    Marketing</a>
-                                                                            </li>
-                                                                            <li id="menu-item-4649"
-                                                                                class="menu-item menu-item-type-post_type navbars-fluid menu-item-4649">
-                                                                                <a
-                                                                                    href="https://fouraxiz.com/erp-software-development/">Software
-                                                                                    Development</a>
-                                                                            </li>
-                                                                            <li id="menu-item-4648"
-                                                                                class="menu-item menu-item-type-post_type navbars-fluid menu-item-4648">
-                                                                                <a
-                                                                                    href="https://fouraxiz.com/domain-hosting-services/">Domain
-                                                                                    Hosting</a>
-                                                                            </li>
-                                                                            <li id="menu-item-4650"
-                                                                                class="menu-item menu-item-type-post_type navbars-fluid menu-item-4650">
-                                                                                <a
-                                                                                    href="https://fouraxiz.com/graphic-design/">Graphics
-                                                                                    Design</a>
-                                                                            </li>
-                                                                            <li id="menu-item-4651"
-                                                                                class="menu-item menu-item-type-post_type navbars-fluid menu-item-4651">
-                                                                                <a
-                                                                                    href="https://fouraxiz.com/security-solutions/">Security
-                                                                                    Solutions</a>
-                                                                            </li>
-                                                                            <li id="menu-item-4652"
-                                                                                class="menu-item menu-item-type-post_type navbars-fluid menu-item-4652">
-                                                                                <a
-                                                                                    href="https://fouraxiz.com/software-testing/">Software
-                                                                                    Testing</a>
-                                                                            </li>
-                                                                            <li id="menu-item-4644"
-                                                                                class="menu-item menu-item-type-post_type navbars-fluid menu-item-4644">
-                                                                                <a
-                                                                                    href="https://fouraxiz.com/ai-machine-learning/">AI
-                                                                                    Machine Learning</a>
-                                                                            </li>
-                                                                        </ul>
                                                                     </li>
                                                                     <li id="menu-item-2588"
                                                                         class="menu-item menu-item-type-post_type navbars-fluid menu-item-2588">
@@ -189,68 +127,7 @@
                                                                                             points="6 9 12 15 18 9">
                                                                                         </polyline>
                                                                                     </svg></a>
-                                                                                <ul class="sub-menu">
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-4653">
-                                                                                        <a
-                                                                                            href="https://fouraxiz.com/web-application-development/">Web
-                                                                                            Development</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-4645">
-                                                                                        <a
-                                                                                            href="https://fouraxiz.com/mobile-apps/">App
-                                                                                            Development</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-4646">
-                                                                                        <a
-                                                                                            href="https://fouraxiz.com/business-intelligence/">Business
-                                                                                            Intelligence</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-4647">
-                                                                                        <a
-                                                                                            href="https://fouraxiz.com/search-engine-optimization/">Digital
-                                                                                            Marketing</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-4649">
-                                                                                        <a
-                                                                                            href="https://fouraxiz.com/erp-software-development/">Software
-                                                                                            Development</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-4648">
-                                                                                        <a
-                                                                                            href="https://fouraxiz.com/domain-hosting-services/">Domain
-                                                                                            Hosting</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-4650">
-                                                                                        <a
-                                                                                            href="https://fouraxiz.com/graphic-design/">Graphics
-                                                                                            Design</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-4651">
-                                                                                        <a
-                                                                                            href="https://fouraxiz.com/security-solutions/">Security
-                                                                                            Solutions</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-4652">
-                                                                                        <a
-                                                                                            href="https://fouraxiz.com/software-testing/">Software
-                                                                                            Testing</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item menu-item-type-post_type navbars-fluid menu-item-4644">
-                                                                                        <a
-                                                                                            href="https://fouraxiz.com/ai-machine-learning/">AI
-                                                                                            Machine Learning</a>
-                                                                                    </li>
-                                                                                </ul>
+                                                                                
                                                                             </li>
                                                                             <li
                                                                                 class="menu-item menu-item-type-post_type navbars-fluid menu-item-2588">

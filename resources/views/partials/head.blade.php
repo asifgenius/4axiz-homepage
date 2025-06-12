@@ -2,24 +2,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="origin-trial"
 		content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
-	<div class="fit-vids-style">­<style>
-			.fluid-width-video-wrapper {
-				width: 100%;
-				position: relative;
-				padding: 0;
-			}
-
-			.fluid-width-video-wrapper iframe,
-			.fluid-width-video-wrapper object,
-			.fluid-width-video-wrapper embed {
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-			}
-		</style>
-	</div>
 
 	<script type="text/javascript" async="" src="js/js"></script>
 	<script type="text/javascript" async="" src="js/resizejQuery"></script>
@@ -29,6 +11,7 @@
 	<script>(() => { class RocketLazyLoadScripts { constructor() { this.v = "1.2.6", this.triggerEvents = ["keydown", "mousedown", "mousemove", "touchmove", "touchstart", "touchend", "wheel"], this.userEventHandler = this.t.bind(this), this.touchStartHandler = this.i.bind(this), this.touchMoveHandler = this.o.bind(this), this.touchEndHandler = this.h.bind(this), this.clickHandler = this.u.bind(this), this.interceptedClicks = [], this.interceptedClickListeners = [], this.l(this), window.addEventListener("pageshow", (t => { this.persisted = t.persisted, this.everythingLoaded && this.m() })), this.CSPIssue = sessionStorage.getItem("rocketCSPIssue"), document.addEventListener("securitypolicyviolation", (t => { this.CSPIssue || "script-src-elem" !== t.violatedDirective || "data" !== t.blockedURI || (this.CSPIssue = !0, sessionStorage.setItem("rocketCSPIssue", !0)) })), document.addEventListener("DOMContentLoaded", (() => { this.k() })), this.delayedScripts = { normal: [], async: [], defer: [] }, this.trash = [], this.allJQueries = [] } p(t) { document.hidden ? t.t() : (this.triggerEvents.forEach((e => window.addEventListener(e, t.userEventHandler, { passive: !0 }))), window.addEventListener("touchstart", t.touchStartHandler, { passive: !0 }), window.addEventListener("mousedown", t.touchStartHandler), document.addEventListener("visibilitychange", t.userEventHandler)) } _() { this.triggerEvents.forEach((t => window.removeEventListener(t, this.userEventHandler, { passive: !0 }))), document.removeEventListener("visibilitychange", this.userEventHandler) } i(t) { "HTML" !== t.target.tagName && (window.addEventListener("touchend", this.touchEndHandler), window.addEventListener("mouseup", this.touchEndHandler), window.addEventListener("touchmove", this.touchMoveHandler, { passive: !0 }), window.addEventListener("mousemove", this.touchMoveHandler), t.target.addEventListener("click", this.clickHandler), this.L(t.target, !0), this.S(t.target, "onclick", "rocket-onclick"), this.C()) } o(t) { window.removeEventListener("touchend", this.touchEndHandler), window.removeEventListener("mouseup", this.touchEndHandler), window.removeEventListener("touchmove", this.touchMoveHandler, { passive: !0 }), window.removeEventListener("mousemove", this.touchMoveHandler), t.target.removeEventListener("click", this.clickHandler), this.L(t.target, !1), this.S(t.target, "rocket-onclick", "onclick"), this.M() } h() { window.removeEventListener("touchend", this.touchEndHandler), window.removeEventListener("mouseup", this.touchEndHandler), window.removeEventListener("touchmove", this.touchMoveHandler, { passive: !0 }), window.removeEventListener("mousemove", this.touchMoveHandler) } u(t) { t.target.removeEventListener("click", this.clickHandler), this.L(t.target, !1), this.S(t.target, "rocket-onclick", "onclick"), this.interceptedClicks.push(t), t.preventDefault(), t.stopPropagation(), t.stopImmediatePropagation(), this.M() } O() { window.removeEventListener("touchstart", this.touchStartHandler, { passive: !0 }), window.removeEventListener("mousedown", this.touchStartHandler), this.interceptedClicks.forEach((t => { t.target.dispatchEvent(new MouseEvent("click", { view: t.view, bubbles: !0, cancelable: !0 })) })) } l(t) { EventTarget.prototype.addEventListenerWPRocketBase = EventTarget.prototype.addEventListener, EventTarget.prototype.addEventListener = function (e, i, o) { "click" !== e || t.windowLoaded || i === t.clickHandler || t.interceptedClickListeners.push({ target: this, func: i, options: o }), (this || window).addEventListenerWPRocketBase(e, i, o) } } L(t, e) { this.interceptedClickListeners.forEach((i => { i.target === t && (e ? t.removeEventListener("click", i.func, i.options) : t.addEventListener("click", i.func, i.options)) })), t.parentNode !== document.documentElement && this.L(t.parentNode, e) } D() { return new Promise((t => { this.P ? this.M = t : t() })) } C() { this.P = !0 } M() { this.P = !1 } S(t, e, i) { t.hasAttribute && t.hasAttribute(e) && (event.target.setAttribute(i, event.target.getAttribute(e)), event.target.removeAttribute(e)) } t() { this._(this), "loading" === document.readyState ? document.addEventListener("DOMContentLoaded", this.R.bind(this)) : this.R() } k() { let t = []; document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e => { let i = e.getAttribute("data-rocket-src"); if (i && !i.startsWith("data:")) { 0 === i.indexOf("//") && (i = location.protocol + i); try { const o = new URL(i).origin; o !== location.origin && t.push({ src: o, crossOrigin: e.crossOrigin || "module" === e.getAttribute("data-rocket-type") }) } catch (t) { } } })), t = [...new Map(t.map((t => [JSON.stringify(t), t]))).values()], this.T(t, "preconnect") } async R() { this.lastBreath = Date.now(), this.j(this), this.F(this), this.I(), this.W(), this.q(), await this.A(this.delayedScripts.normal), await this.A(this.delayedScripts.defer), await this.A(this.delayedScripts.async); try { await this.U(), await this.H(this), await this.J() } catch (t) { console.error(t) } window.dispatchEvent(new Event("rocket-allScriptsLoaded")), this.everythingLoaded = !0, this.D().then((() => { this.O() })), this.N() } W() { document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t => { t.hasAttribute("data-rocket-src") ? t.hasAttribute("async") && !1 !== t.async ? this.delayedScripts.async.push(t) : t.hasAttribute("defer") && !1 !== t.defer || "module" === t.getAttribute("data-rocket-type") ? this.delayedScripts.defer.push(t) : this.delayedScripts.normal.push(t) : this.delayedScripts.normal.push(t) })) } async B(t) { if (await this.G(), !0 !== t.noModule || !("noModule" in HTMLScriptElement.prototype)) return new Promise((e => { let i; function o() { (i || t).setAttribute("data-rocket-status", "executed"), e() } try { if (navigator.userAgent.indexOf("Firefox/") > 0 || "" === navigator.vendor || this.CSPIssue) i = document.createElement("script"), [...t.attributes].forEach((t => { let e = t.nodeName; "type" !== e && ("data-rocket-type" === e && (e = "type"), "data-rocket-src" === e && (e = "src"), i.setAttribute(e, t.nodeValue)) })), t.text && (i.text = t.text), i.hasAttribute("src") ? (i.addEventListener("load", o), i.addEventListener("error", (function () { i.setAttribute("data-rocket-status", "failed-network"), e() })), setTimeout((() => { i.isConnected || e() }), 1)) : (i.text = t.text, o()), t.parentNode.replaceChild(i, t); else { const i = t.getAttribute("data-rocket-type"), s = t.getAttribute("data-rocket-src"); i ? (t.type = i, t.removeAttribute("data-rocket-type")) : t.removeAttribute("type"), t.addEventListener("load", o), t.addEventListener("error", (i => { this.CSPIssue && i.target.src.startsWith("data:") ? (console.log("WPRocket: data-uri blocked by CSP -> fallback"), t.removeAttribute("src"), this.B(t).then(e)) : (t.setAttribute("data-rocket-status", "failed-network"), e()) })), s ? (t.removeAttribute("data-rocket-src"), t.src = s) : t.src = "data:text/javascript;base64," + window.btoa(unescape(encodeURIComponent(t.text))) } } catch (i) { t.setAttribute("data-rocket-status", "failed-transform"), e() } })); t.setAttribute("data-rocket-status", "skipped") } async A(t) { const e = t.shift(); return e && e.isConnected ? (await this.B(e), this.A(t)) : Promise.resolve() } q() { this.T([...this.delayedScripts.normal, ...this.delayedScripts.defer, ...this.delayedScripts.async], "preload") } T(t, e) { var i = document.createDocumentFragment(); t.forEach((t => { const o = t.getAttribute && t.getAttribute("data-rocket-src") || t.src; if (o && !o.startsWith("data:")) { const s = document.createElement("link"); s.href = o, s.rel = e, "preconnect" !== e && (s.as = "script"), t.getAttribute && "module" === t.getAttribute("data-rocket-type") && (s.crossOrigin = !0), t.crossOrigin && (s.crossOrigin = t.crossOrigin), t.integrity && (s.integrity = t.integrity), i.appendChild(s), this.trash.push(s) } })), document.head.appendChild(i) } j(t) { let e = {}; function i(i, o) { return e[o].eventsToRewrite.indexOf(i) >= 0 && !t.everythingLoaded ? "rocket-" + i : i } function o(t, o) { !function (t) { e[t] || (e[t] = { originalFunctions: { add: t.addEventListener, remove: t.removeEventListener }, eventsToRewrite: [] }, t.addEventListener = function () { arguments[0] = i(arguments[0], t), e[t].originalFunctions.add.apply(t, arguments) }, t.removeEventListener = function () { arguments[0] = i(arguments[0], t), e[t].originalFunctions.remove.apply(t, arguments) }) }(t), e[t].eventsToRewrite.push(o) } function s(e, i) { let o = e[i]; e[i] = null, Object.defineProperty(e, i, { get: () => o || function () { }, set(s) { t.everythingLoaded ? o = s : e["rocket" + i] = o = s } }) } o(document, "DOMContentLoaded"), o(window, "DOMContentLoaded"), o(window, "load"), o(window, "pageshow"), o(document, "readystatechange"), s(document, "onreadystatechange"), s(window, "onload"), s(window, "onpageshow"); try { Object.defineProperty(document, "readyState", { get: () => t.rocketReadyState, set(e) { t.rocketReadyState = e }, configurable: !0 }), document.readyState = "loading" } catch (t) { console.log("WPRocket DJE readyState conflict, bypassing") } } F(t) { let e; function i(e) { return t.everythingLoaded ? e : e.split(" ").map((t => "load" === t || 0 === t.indexOf("load.") ? "rocket-jquery-load" : t)).join(" ") } function o(o) { function s(t) { const e = o.fn[t]; o.fn[t] = o.fn.init.prototype[t] = function () { return this[0] === window && ("string" == typeof arguments[0] || arguments[0] instanceof String ? arguments[0] = i(arguments[0]) : "object" == typeof arguments[0] && Object.keys(arguments[0]).forEach((t => { const e = arguments[0][t]; delete arguments[0][t], arguments[0][i(t)] = e }))), e.apply(this, arguments), this } } o && o.fn && !t.allJQueries.includes(o) && (o.fn.ready = o.fn.init.prototype.ready = function (e) { return t.domReadyFired ? e.bind(document)(o) : document.addEventListener("rocket-DOMContentLoaded", (() => e.bind(document)(o))), o([]) }, s("on"), s("one"), t.allJQueries.push(o)), e = o } o(window.jQuery), Object.defineProperty(window, "jQuery", { get: () => e, set(t) { o(t) } }) } async H(t) { const e = document.querySelector("script[data-webpack]"); e && (await async function () { return new Promise((t => { e.addEventListener("load", t), e.addEventListener("error", t) })) }(), await t.K(), await t.H(t)) } async U() { this.domReadyFired = !0; try { document.readyState = "interactive" } catch (t) { } await this.G(), document.dispatchEvent(new Event("rocket-readystatechange")), await this.G(), document.rocketonreadystatechange && document.rocketonreadystatechange(), await this.G(), document.dispatchEvent(new Event("rocket-DOMContentLoaded")), await this.G(), window.dispatchEvent(new Event("rocket-DOMContentLoaded")) } async J() { try { document.readyState = "complete" } catch (t) { } await this.G(), document.dispatchEvent(new Event("rocket-readystatechange")), await this.G(), document.rocketonreadystatechange && document.rocketonreadystatechange(), await this.G(), window.dispatchEvent(new Event("rocket-load")), await this.G(), window.rocketonload && window.rocketonload(), await this.G(), this.allJQueries.forEach((t => t(window).trigger("rocket-jquery-load"))), await this.G(); const t = new Event("rocket-pageshow"); t.persisted = this.persisted, window.dispatchEvent(t), await this.G(), window.rocketonpageshow && window.rocketonpageshow({ persisted: this.persisted }), this.windowLoaded = !0 } m() { document.onreadystatechange && document.onreadystatechange(), window.onload && window.onload(), window.onpageshow && window.onpageshow({ persisted: this.persisted }) } I() { const t = new Map; document.write = document.writeln = function (e) { const i = document.currentScript; i || console.error("WPRocket unable to document.write this: " + e); const o = document.createRange(), s = i.parentElement; let n = t.get(i); void 0 === n && (n = i.nextSibling, t.set(i, n)); const c = document.createDocumentFragment(); o.setStart(c, 0), c.appendChild(o.createContextualFragment(e)), s.insertBefore(c, n) } } async G() { Date.now() - this.lastBreath > 45 && (await this.K(), this.lastBreath = Date.now()) } async K() { return document.hidden ? new Promise((t => setTimeout(t))) : new Promise((t => requestAnimationFrame(t))) } N() { this.trash.forEach((t => t.remove())) } static run() { const t = new RocketLazyLoadScripts; t.p(t) } } RocketLazyLoadScripts.run() })();</script>
 
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -42,7 +25,7 @@
 		var gtm4wp_datalayer_name = "dataLayer";
 		var dataLayer = dataLayer || [];
 	</script>
-	<title>4axiz IT Ltd - Best Software Company in Bangladesh</title>
+	<title>4axiz IT Ltd</title>
 	<style id="perfmatters-used-css">
 		@font-face {
 			font-family: "linea-arrows-10";
@@ -4755,6 +4738,21 @@
 			position: relative;
 		}
 
+		.navbar-items {
+			justify-content: center;
+			align-items: center;
+		}
+
+		.stats {
+			background-color: #fff;
+			border: 1px solid #e5e5e5;
+			border-radius: 12px 12px 12px 12px
+		}
+
+		.stats-item {
+			border: 1px solid #f0eff4;
+		}
+
 		.elementor-column-gap-default>.elementor-column>.main-item {
 			padding: 10px;
 		}
@@ -5012,48 +5010,6 @@
 
 			.elementor-column {
 				width: 100%;
-			}
-		}
-
-		@media (min-width:1171px) {
-			#elementor-device-mode:after {
-				content: "desktop";
-			}
-		}
-
-		@media (min-width:-1) {
-			#elementor-device-mode:after {
-				content: "widescreen";
-			}
-		}
-
-		@media (max-width:1170px) {
-			#elementor-device-mode:after {
-				content: "laptop";
-			}
-		}
-
-		@media (max-width:-1) {
-			#elementor-device-mode:after {
-				content: "tablet_extra";
-			}
-		}
-
-		@media (max-width:1024px) {
-			#elementor-device-mode:after {
-				content: "tablet";
-			}
-		}
-
-		@media (max-width:-1) {
-			#elementor-device-mode:after {
-				content: "mobile_extra";
-			}
-		}
-
-		@media (max-width:767px) {
-			#elementor-device-mode:after {
-				content: "mobile";
 			}
 		}
 
@@ -6219,16 +6175,6 @@
 
 		.iteck-underline-color span {
 			position: relative;
-		}
-
-		.iteck-underline-color span:after {
-			position: absolute;
-			content: "";
-			left: 0;
-			bottom: 0;
-			width: 100%;
-			height: 40%;
-			opacity: 8%;
 		}
 
 		.white-header {
@@ -7791,6 +7737,7 @@
 			line-height: 1.6;
 		}
 	</style>
+	<link rel="stylesheet" media="all" href="css/styles.css">
 	<link data-minify="1" rel="stylesheet" id="linea_arrows-css" media="all"
 		data-pmdelayedstyle="https://fouraxiz.com/wp-content/cache/min/1/wp-content/plugins/iteck_plugin/assets/fonts/linea/arrows/css/style.css?ver=1748258125"
 		href="css/style.css">
@@ -7861,22 +7808,19 @@
 	<link data-minify="1" rel="stylesheet" id="iteck-style-css" media="all"
 		data-pmdelayedstyle="https://fouraxiz.com/wp-content/cache/min/1/wp-content/themes/iteck-child/style.css?ver=1748258125"
 		href="css/navbar-logo.css">
-
-
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 	<style id="iteck-style-inline-css">
 		.load-circle {
-			border-top-color: #F95133;
+			border-top-color: #207eff;
 		}
 
 
 		:root {
-			--color-main: #F95133;
-			--color-primary: #F95133;
+			--color-main: #207eff;
+			--color-primary: #207eff;
 			--color-secondary: #F97861;
 			--color-ternary: #D88A2B;
 		}
@@ -7911,8 +7855,8 @@
 		}
 
 		:root {
-			--color-main: #F95133;
-			--color-primary: #F95133;
+			--color-main: #207eff;
+			--color-primary: #207eff;
 			--color-secondary: #F97861;
 			--color-ternary: #D88A2B;
 		}
@@ -8003,6 +7947,7 @@
 		data-wpr-hosted-gf-parameters="family=Inter:100,200,300,400,500,600,700,800,900&amp;display=swap&amp;ver=1737633071"
 		data-pmdelayedstyle="https://fouraxiz.com/wp-content/cache/perfmatters/fouraxiz.com/minify/afd84d92b930.87362026afe8e8c33b05496ddb298.min.css"
 		href="css/afd84d92b930.87362026afe8e8c33b05496ddb298.min.css"><noscript>
+
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
 		<link rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
@@ -8010,6 +7955,8 @@
 		<link rel="stylesheet"
 			data-wpr-hosted-gf-parameters="family=Inter:100,200,300,400,500,600,700,800,900&amp;display=swap&amp;ver=1737633071"
 			data-pmdelayedstyle="https://fouraxiz.com/wp-content/cache/perfmatters/fouraxiz.com/minify/afd84d92b930.87362026afe8e8c33b05496ddb298.min.css">
+
+
 	</noscript>
 	<style id="rocket-lazyload-inline-css">
 		.rll-youtube-player {
